@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Restrições em Campos de Data</h2>
+
+<p>Use os atributos min e max para adicionar restrições às datas:</p>
+
+<form action="/action_page.php">
+  <label for="datemin">Entre com uma data após 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="datemax">Entre com uma data antes de 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+  <input type="submit" value="Enviar">
+</form>
+
+<p><strong>Nota:</strong> O tipo "date" não é suportado no Internet Explorer 11.</p>
+
+</body>
+</html>
