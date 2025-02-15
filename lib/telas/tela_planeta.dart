@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/Controles/controle_planeta.dart';
+import 'package:myapp/controles/controle_planeta.dart';
 import '../modelos/planeta.dart';
 
 class TelaPlaneta extends StatefulWidget {
